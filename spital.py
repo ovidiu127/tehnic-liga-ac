@@ -16,11 +16,11 @@ class spital:
         for m in medici:
             print(m.nume+" "+m.prenume)
         
-medici=[medic("Popa","Gigi","chirurg"),medic("Coca","Nelu","ginecolog")]
+medici=[medic("Popa","Gigi","chirurg"),medic("Ciobanu","Nelu","oftalmolog")]
 
 s=spital("SPJT",2,"chirurgie",medici)
 
 print(s.nume)
 s.afisMedici();
-s.medici[1].modifNume("Pretorian")
+s.medici[1].modifNume("Chirila")
 s.afisMedici()
